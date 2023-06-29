@@ -1,9 +1,4 @@
 # GPT-TS-for-Battery-Storage-Optimization
-Optimising Grid-Scale Lithium-ion Batteries using GPT-TS.
-
-
-
-# GPT-TS-for-Battery-Storage-Optimization
 
 <p align="center">
   <img src="https://github.com/RichardFindlay/battery-optimisation-with-drl/blob/main/visualisations/d3_interactive_plot_screenshot.png" />
@@ -11,7 +6,7 @@ Optimising Grid-Scale Lithium-ion Batteries using GPT-TS.
 </p>
 
 ### Project Description :open_book::
-The repository demonstrates the capabilities of data driven techniques by investigating the novel application of Deep Reinforcement Learning (DRL) to maximising the profit of a battery from wholesale energy arbitrage. Largely based on the codeless academic paper from [Cao et al. (2019)](https://eprints.keele.ac.uk/8408/1/final_submitted_energy_storage_arbitrage_using_DRL%20(7).pdf), the post looks to apply the Deep Q-network (DQN) model introduced by DeepMind in 2015, as well as investigate some the improvements made to the basic architecture. The above figure shows the results from a 10MW/20MWh (2hr) Li-ion battery optimised using a "Double Dueling" DQN method.
+The repository demonstrates the capabilities of data driven techniques by investigating the novel application of GPT for time series forecasting to maximize the profit of a battery from wholesale energy arbitrage. Largely based on the codeless academic paper from [Cao et al. (2019)](https://eprints.keele.ac.uk/8408/1/final_submitted_energy_storage_arbitrage_using_DRL%20(7).pdf), the post looks to apply the Deep Q-network (DQN) model introduced by DeepMind in 2015, as well as investigate some the improvements made to the basic architecture. The above figure shows the results from a 10MW/20MWh (2hr) Li-ion battery optimised using a "Double Dueling" DQN method.
 
 ### Performance Overview :racing_car::
 Vanilla, Double-Dueling and a Noisy Network DQN was explored as part of this study, integrating the effects of battery degradation and dynamic efficiency into the reward function to produce a practical foundation to the novel optimisation. For comparison the repository also has a Mixed Integer Linear Programming (MILP) optimisation, with the cumulative profits for the inference year (2019) illustrated below. 
