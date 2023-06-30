@@ -1,0 +1,4 @@
+conda env remove --name env_battery  
+conda create -n env_battery python=3.9
+conda activate env_battery
+
